@@ -3985,7 +3985,7 @@ Canvas:
   m_GameObject: {fileID: 1858760803}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 1768073049}
   m_PlaneDistance: 1
   m_PixelPerfect: 0
@@ -4414,6 +4414,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 729dfbac458c8954f8bef8fb8fbd3b8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SkillManager
+  _debugOwnedSkills: []
+  _testSkill: {fileID: 0}
   _maxSkillCount: 3
 --- !u!4 &2086730653
 Transform:

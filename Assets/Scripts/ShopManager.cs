@@ -72,4 +72,9 @@ public class ShopManager : MonoBehaviour
 
     }
 
+    public void OnBuyButtonClicked(int index)
+    {
+        BuySkill(index);
+    }
+
 }
